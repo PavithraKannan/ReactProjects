@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Card } from '@fluentui/react';
+//import { Card } from '@fluentui/react-northstar';
 import axios from 'axios';
 
 function App() {
@@ -23,17 +23,13 @@ function App() {
 
 
   return (
-    <Card>
       <div className="App">
         <h1>Breaking Bad Quotes</h1>
         <p>{quote}</p>
         <button onClick={handleRefreshClick}>Refresh</button>
       </div>
-    </Card>
-
   );
 }
 
 export default App;
-
 
